@@ -30,6 +30,9 @@ const Home = React.createClass({
             </ol>
           </div>
         </div>
+        <footer className='App__footer'>
+          <span>Style reference from <a href="https://github.com/insin/react-hn">insin/react-hn</a></span>
+        </footer>
       </div>
     )
   }
