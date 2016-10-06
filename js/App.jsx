@@ -1,10 +1,11 @@
-var React = require('react')
-var ReactDOM = require('react-dom')
+const React = require('react')
+const ReactDOM = require('react-dom')
+const Home = require('./Home')
 
-var App = React.createClass({
+const App = React.createClass({
   render () {
     return (
-      <h1>init</h1>
+      <Home />
     )
   }
 
