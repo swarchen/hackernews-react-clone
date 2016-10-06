@@ -19851,6 +19851,20 @@
 	            })
 	          )
 	        )
+	      ),
+	      React.createElement(
+	        'footer',
+	        { className: 'App__footer' },
+	        React.createElement(
+	          'span',
+	          null,
+	          'Style reference from ',
+	          React.createElement(
+	            'a',
+	            { href: 'https://github.com/insin/react-hn' },
+	            'insin/react-hn'
+	          )
+	        )
 	      )
 	    );
 	  }
